@@ -1,0 +1,63 @@
+html {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: #55798F;
+}
+
+body {
+  background-image: url("../assets/background.jfif");
+  background-color: #173446;
+  background-position-y: -100px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.split {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  padding-top: 20px;
+  overflow: hidden;
+}
+
+
+/* Control the left side */
+.left {
+  left: 0;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+/* Control the right side */
+.right {
+  right: 0;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+/* If you want the content centered horizontally and vertically */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
+
+
+.title {
+  font-size: 70pt;
+  color: #55798F;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+.subtitle {
+  font-size: 50pt;
+}
